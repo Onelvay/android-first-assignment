@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- General App Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/background_black</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Job Title Style -->
+    <style name="JobTitleTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Company Text Style -->
+    <style name="CompanyTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="ApplyButtonStyle">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

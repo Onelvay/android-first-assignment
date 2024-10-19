@@ -1,0 +1,17 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">HeadHunter Sample</string>
+    <string name="search_hint">Поиск по подходящим вакансиям</string>
+
+    <!-- Job List -->
+    <string name="android_developer">Android Developer (Kotlin)</string>
+    <string name="company_name_otp">АО «ОТП Банк»</string>
+    <string name="location_moscow">Москва</string>
+    <string name="experience_range">Опыт от 3 до 6 лет</string>
+    <string name="apply_button_text">Откликнуться</string>
+
+    <!-- Job Details -->
+    <string name="android_developer_junior">Android developer (Junior)</string>
+    <string name="company_name_ewa">EWA Learn</string>
+    <string name="job_description_ewa">EWA Learn languages is an international company...</string>
+</resources>

@@ -1,0 +1,111 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_black">
+
+    <!-- Название вакансии -->
+    <TextView
+        android:id="@+id/jobTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android developer (junior)"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <!-- Требуемый опыт -->
+    <TextView
+        android:id="@+id/jobExperience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Требуемый опыт: от 1 года до 3 лет"
+        android:textSize="14sp"
+        android:textColor="@color/light_gray" />
+
+    <!-- Тип занятости -->
+    <TextView
+        android:id="@+id/jobType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Полная занятость, удаленная работа"
+        android:textSize="14sp"
+        android:textColor="@color/light_gray" />
+
+    <!-- Кнопки откликов и просмотров с правильным выравниванием -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/appliedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="155 человек уже откликнулось"
+            android:drawableStart="@drawable/ic_applied"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/watchingButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2 человека сейчас смотрят"
+            android:drawableStart="@drawable/ic_watching"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <!-- Информация о компании -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/companyLogo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_company_logo"
+            android:layout_marginEnd="16dp" />
+
+        <TextView
+            android:id="@+id/companyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EWA"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Описание вакансии -->
+    <TextView
+        android:id="@+id/jobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EWA Learn languages is an international company..."
+        android:textColor="@color/light_gray"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/applyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Откликнуться"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</LinearLayout>
