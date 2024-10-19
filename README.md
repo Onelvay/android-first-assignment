@@ -13,3 +13,9 @@ Search:
 Job details:
 
 ![image](https://github.com/user-attachments/assets/679c08bb-40d7-4c0e-a79e-2a5075ebdaba)
+
+
+Directory details :
+
+
+ ![image](https://github.com/user-attachments/assets/5b3463f5-aec4-427d-9228-6d9910715e33)
